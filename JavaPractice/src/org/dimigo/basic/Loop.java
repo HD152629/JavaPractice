@@ -28,9 +28,9 @@ public class Loop {
 		Scanner scanner = new Scanner(System.in);
 		int attack = 100;
 		int choice;
-		int cnum = new Random().nextInt(4)+1;
 		
 		do{
+			int cnum = new Random().nextInt(4);
 			System.out.println("-------------");
 			System.out.println("<<게임메뉴>>");
 			System.out.println("1.공격력 증가");
