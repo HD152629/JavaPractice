@@ -36,7 +36,7 @@ public class Question {
 			String answer = scanner.nextLine();
 			System.out.println(answers[i].equals(answer) ? "정답입니다!" : "틀렸습니다!");
 		}
-		
+
 		System.out.println(result.append("\n").append(questions[0]).append(" "+answers[0]+"입니다\n").append(questions[1]).append(" "+answers[1]+"입니다\n").append(questions[2]).append(" "+answers[2]+"입니다\n"));
 		
 		
