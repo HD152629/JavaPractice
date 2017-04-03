@@ -23,7 +23,7 @@ public class Car3 {
 	private int maxSpeed;
 	private int price;
 	
-	public Car3(String company, String model,int maxSpeed,String color,int price){
+	public Car3(String company, String model,String color,int price,int maxSpeed){
 		this.company = company;
 		this.model = model;
 		this.color = color;
@@ -31,15 +31,15 @@ public class Car3 {
 		this.price = price;
 	}
 	
-	public Car3(String company,String model,int maxSpeed,String color){
-		this(company,model,0,color,0);
+	public Car3(String company,String model,String color,int maxSpeed){
+		this(company,model,color,0,0);
 	}
 	
 	public Car3(String company, String model,String color){
-		this(company,model,0,color);
+		this(company,model,color,0);
 	}
 	
-	public Car3(String company, String model,String color,int maxSpeed){
+	public Car3(String company, String model,int maxSpeed,String color){
 		this.company = company;
 		this.model = model;
 		this.color = color;
