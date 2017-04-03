@@ -28,18 +28,12 @@ public class Question {
 		String[] answers = {"김광석","박보영","공업수학"};
 		
 		Scanner scanner = new Scanner(System.in);
-		
-		System.out.println(questions[0]);
-		String singer = scanner.nextLine();
-		System.out.println(answers[0].equals(singer) ? "정답입니다!" : "틀렸습니다!");
-		
-		System.out.println(questions[1]);
-		String actor = scanner.nextLine();
-		System.out.println(answers[1].equals(actor) ? "정답입니다!" : "틀렸습니다!");
-		
-		System.out.println(questions[2]);
-		String subject = scanner.nextLine();
-		System.out.println(answers[2].equals(subject) ? "정답입니다!" : "틀렸습니다!");
+
+		for(int i=0; i<3; i++){
+			System.out.println(questions[i]);
+			String answer = scanner.nextLine();
+			System.out.println(answers[i].equals(answer) ? "정답입니다!" : "틀렸습니다!");
+		}
 		
 		System.out.println("<<결과 출력>>");
 		for(int i=0; i<3; i++){
