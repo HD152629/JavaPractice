@@ -94,7 +94,6 @@ public class Snack {
 
 
 
-
 	/**
 	 * @param price the price to set
 	 */
