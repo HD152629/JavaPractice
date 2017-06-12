@@ -45,7 +45,7 @@ public class MelonChart {
 		
 		System.out.println();
 		System.out.println("--<< 2위 곡 삭제 >>--");
-		list1.remove(1);
+		list1.remove(1);  
 		printList(list1);
 		
 		System.out.println();
